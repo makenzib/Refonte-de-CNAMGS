@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+    <title>Refonte de CNAMS</title>
+</head>
+<body>
+<!-- la barre de l'entete -->
+    <header>
+        <div class="logo">
+            <img src="Image/cns.png" alt="Logo de votre site">
+        </div>
+<!-- les menus -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Evenement.html">Évènement</a></li>
+                <li><a href="conctat.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- le contenu du contact -->
+    <section class="contact">
+        <div class="contact-info">
+            <div class="contact-block">
+                <h2>Téléphone</h2>
+                <p>Centre d'appels
+                    Numéro court: 8889 (National) <br> Numéro long: +241 01 79 13 30 (International)
+                    
+                <p>Heures d'ouverture</p>  
+                    Lundi au Vendredi de 7 h 30 à 18 h 00 <br>Samedi de 9 h 00 à 13 h 00</p>
+            </div>
+            <div class="contact-block">
+                <h2>Adresse</h2>
+                <p>Siege Social</p>
+               <p> Boulevard de l'indépendance,</p>
+                   <p> BP.: 3999</p>    
+                <p>Libreville, Gabon</p>
+            </div>
+            <div class="contact-form">
+                <h2>Contactez-nous</h2>
+                <form action="traitement.php" method="post">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required> <br>
+    
+                   <br> <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required> <br>
+    
+                    <br><label for="message">Message :</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="partners">
+        <h2>Nos Partenaires</h2>
+        <div class="partner-logos">
+            <img src="Image/ministere de la sante_0 (1).png" alt="">
+            <img src="Image/cnss.jpg" alt="">
+            <img src="Image/siteon0-92722 (1).png" alt=""> 
+            <img src="Image/olabs.png" alt="">
+            <img src="Image/3 (1).gif" alt="">
+            <img src="Image/logos-ecole241-gabon_ok (1).jpg" alt="">
+            
+            
+        </div>
+    </section>
+
+<!-- le pied de page -->
+    <footer>
+        <div class="footer">
+            <ul class="logo-réseau">
+                <li><a href="#" target="_blank"><img src="Image/aissa.jpg" alt="" width="70" height="35"></a></li>
+                <li><a href="#" target="_blank"><img src="Image/Grand prix.png" alt="" width="70" height="35"></a></li>
+                <li><a href="#" target="_blank"><img src="Image/téléchargement.jpg" alt="" width="25" height="25"></a></li>
+                <li><a href="#" target="_blank"><img src="Image/téléchargement.png" alt="" width="50" height="25"></a></li>
+
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+

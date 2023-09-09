@@ -1,0 +1,184 @@
+/* Réinitialisation des styles par défaut */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* l'en-tête (header) */
+header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* logo du header */
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFA500;
+}
+
+/* Style de la section centrée */
+section{
+    padding: 20px;
+}
+.contenu {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-block {
+    flex: 1;
+}
+
+.bloc1 img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.bloc2 {
+    flex: 1;
+    text-align: left; 
+    padding: 20px; 
+}
+
+
+/* le pied de page */
+.footer {
+    background-color: green;
+    height: 100px;
+
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 50px;
+    
+}
+
+
+.logo-réseau li {
+    margin-right: 10px; 
+}
+
+.logo-réseau a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+/*la section de l'événement */
+.event {
+    margin: 0 10px;
+   font-size: larger;
+   line-height: 1.2 em;
+   
+}
+
+
+.event h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.event-videos {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+   
+}
+
+.event-videos p {
+    width: auto;  
+}
+
+.event-image img {
+    align-items: center;
+    margin-left:180px;
+    height: auto;
+    margin-top: 50px;
+}
+.event-images img {
+    align-items: center;
+    margin-left:20px;
+    margin-top: 50px;
+}
+
+
+
+/* la section de contact */
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.contact-block {
+    flex: 1;
+    text-align: left;
+    margin: 0 10px;
+}
+
+
+.partners {
+    text-align: center;
+    padding: 20px;
+}
+
+.partners h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* logos des partenaires */
+.partner-logos {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style des logos des partenaires */
+.partner-logos img {
+    max-width: 150px;
+    height: auto;
+    margin: 10px;
+}
